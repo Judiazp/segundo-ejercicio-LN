@@ -1,6 +1,5 @@
 
-# Pequeña interfaz para visualizar el resultado del ejercicio: https://judiazp.github.io/segundo-ejercicio-LN/
-
+Pequeña interfaz para visualizar el resultado del ejercicio: https://judiazp.github.io/segundo-ejercicio-LN/
 
 ## Preguntas Adicionales.
 
