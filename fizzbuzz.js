@@ -7,14 +7,13 @@ let array = [10,12,15,23,123,53,56,4,5,3]
 const fizzBuzz = ( array )=> {
     return array.map(element => {
         if ( element % 3 === 0 && element % 5 === 0) {
-            return `<div class="fizz-buzz">FizzBuzz</div>`
+            return ' FizzBuzz '
         } else if (element % 5 === 0 || element.toString().includes(5)) {
-            return '<div class="buzz">Buzz</div>'
+            return ' Buzz '
         } else if (element % 3 === 0 || element.toString().includes(3)) {
-            return '<div class="fizz">Fizz</div>'
+            return ' Fizz '
         } else {
-            return `<div>${element}</div>` 
-
+            return ` ${element.toString()} ` 
         }
     })
 }
